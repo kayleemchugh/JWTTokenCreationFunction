@@ -6,8 +6,10 @@
   <ItemGroup>
     <PackageReference Include="JWT" Version="5.2.2" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.2.0" />
-    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.5.0" />
+    <!-- <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.5.0" /> -->
+    <!-- <PackageReference Include="System.IdentityModel.Tokens" Version="5.5.0" /> -->
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.24" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.4.0" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
